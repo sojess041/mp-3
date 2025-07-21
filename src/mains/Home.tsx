@@ -5,7 +5,7 @@ import beach from "./beach.png";
 import woods from "./woods.png";
 import icecream from "./icecream.png";
 import buko from "./buko.png";
-import jess from "./jess.jpg";
+import jess from "./jess.png";
 export default function Home() {
   return (
     <>
