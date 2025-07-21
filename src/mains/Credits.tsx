@@ -1,4 +1,3 @@
-import Nav from "../components/Nav";
 import "../styles/credits.css"; 
 
 export default function Credits() {
