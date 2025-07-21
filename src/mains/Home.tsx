@@ -1,7 +1,7 @@
 import Footer from "../components/Footer";
 import "../styles/home.css";
 
-import beach from "./beach.jpg";
+import beach from "./beach.png";
 import woods from "./woods.jpg";
 import icecream from "./icecream.png";
 import buko from "./buko.png";
