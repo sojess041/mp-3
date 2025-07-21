@@ -1,0 +1,125 @@
+/*page wrapper */
+.wrapper{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 2% 5%;
+  }
+  
+  /*main tag styling */
+  main{
+    height: auto;
+    
+  }
+
+    
+  /*text styling */
+  p {
+      font-family: 'Space Mono', monospace;
+    }
+  h1 {
+      font-family: 'Space Mono', monospace, bold;
+      font-weight: 700;
+      text-align: center;
+  
+  }
+  
+  
+  /* Navigation styling */
+  nav a {
+    text-decoration: none;
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    font-weight: bold;
+    color: #95d2e6;
+    display: inline-block;
+    margin: 0 10px;
+    border-bottom: 2px solid #cce5eb;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  h2 {
+      color: black;
+      letter-spacing: 1px;
+      font-family: monospace;
+      text-align: center;
+      font-size: 25px;
+  
+  }
+  
+  h3 {
+      color: black;
+      font-family:monospace;
+      text-align: center;
+      font-size: 20px;
+  }
+  
+  p {
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+  }
+  
+  img {
+  
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }
+  
+  
+  /*footer styling to bring it to the bottom of the page*/
+  footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+
+ /*styling for photos*/
+.decor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    gap: 5%;
+  
+  }
+  
+  /* Left side */
+.beach {
+    height: auto;
+    left: -140px;
+    top: 20px;
+    width: 120px;
+  }
+  
+  .woods {
+    height: auto;
+    width: 120px;
+    left: -200px;
+    bottom: 20px;
+  }
+  
+  /* Right side */
+  .icecream {
+    width: 120px;
+    height: auto;
+    right: -140px;
+    top: 20px;
+  }
+  
+  .buko {
+    width: 120px;
+    height: auto;
+    right: -140px;
+    bottom: 20px;
+  }
+  
+  .mainimage {
+    height: 410px;
+    width:320px;
+    margin-left: 40;
+    display: block;
+  }

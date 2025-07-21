@@ -1,0 +1,118 @@
+/*page wrapper */
+.wrapper{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 2% 5%;
+  }
+  
+  /*main tag styling */
+  main{
+    height: auto;
+    
+  }
+  
+  /* Navigation styling */
+  nav a {
+      text-decoration: none;
+      font-family: 'Space Mono', monospace;
+      font-size: 14px;
+      font-weight: bold;
+      color: #95d2e6;
+      display: inline-block;
+      margin: 0 10px;
+      border-bottom: 2px solid #cce5eb;
+      margin-top: 30px;
+      text-align: center;
+      
+  
+  }
+  p {
+      font-family: 'Space Mono', monospace;
+  }
+  
+  
+  
+  h1 {
+      font-family: 'Space Mono', monospace, bold;
+      font-weight: 700;
+  
+  }
+  
+  body {
+      margin: 0;
+      padding: 0;
+  }
+  
+  
+  /* position text in the middle of the post it note re W3 Schools*/
+  .text {
+      position: absolute;
+      top: 80%;
+      left: 75%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: rgb(29, 26, 26); 
+      font-family: 'Space Mono', monospace;
+      font-size: 17px;
+      width: 90%;
+    }
+  
+  /* Stylling for post it images*/
+  .postit-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+  }
+  
+  .postit-container {
+    position: relative;
+    width: 220px;
+    height: 220px;
+  }
+  
+  .postit-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+    /*styling for h1*/
+  .educ{
+      font-family: 'Space Mono', monospace, bold;
+      margin:auto;
+      text-align: center;
+  
+  }
+  
+  
+  /*footer styling to bring it to the bottom of the page*/
+  footer {
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      margin-top:20%;
+      text-align: center;
+    }
+    
+    /* CENTER TEXT */
+    .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        font-family: 'Space Mono', monospace;
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+      
